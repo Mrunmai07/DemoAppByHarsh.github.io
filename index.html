@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Shop My Style{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h3>This is our web page!</h3>
+  <p>yayyyyyy</p>
+</div>
+
+<!--IMAGE GALLERY -->
+<div class="container">
+  <h2>Check out these clothes!!</h2>
+  <p>Click on the images shop the look!</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://www.showpo.com/us/management-pants-in-beige-check">
+          <img src="/static/images/outfit.jpg"  style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://www.pacsun.com/" target="_blank">
+          <img src="static/images/outfit2.jpg" alt="Nature" style="width:100%">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="https://www.showpo.com/us/highest-point-pants-in-beige" target="_blank">
+          <img src="static/images/outfit3.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
